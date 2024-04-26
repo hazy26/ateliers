@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Ubuntu Regular';
+    src: url('../fonts/ubuntu-regular-webfont.woff') format('woff'),
+         url('../fonts/ubuntu-regular-webfont.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Ubuntu Italic';
+    src: url('../fonts/ubuntu-italic-webfont.woff') format('woff'),
+         url('../fonts/ubuntu-italic-webfont.woff2') format('woff2');
+    font-style: italic;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 768px;
+    padding: 2rem;
+    text-align: justify;
+}
+
+section{
+    padding: 2rem 0;
+}
+
+h2{
+    padding: 1rem 0;
+}
+
+.ubuntu_regular{
+    font-family: 'Ubuntu Regular';
+}
+
+.ubuntu_italic{
+    font-family: 'Ubuntu Italic';
+}

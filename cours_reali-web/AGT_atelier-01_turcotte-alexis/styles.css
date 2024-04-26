@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: 100vh;
+    justify-content: center;
+    padding: 2rem;
+    width: 100vw;
+}
+
+div{
+    background-color: black;
+    height: 125px;
+    padding: 1rem;
+    width: 125px;
+}
+
+div.grayscale{
+    background-color: white;
+    color: black;
+    height: fit-content;
+    width: fit-content;
+}
+
+/*
+    5 fonctionnalité de CSS3
+*/
+
+/* Fonctionnalité #1 - BOX SHADOW */
+.box-shadow{
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* Fonctionnalité #2 - BORDER RADIUS */
+.border-radius{
+    border-radius: 20px;
+}
+
+/* Fonctionnalité #3 - GRADIENTS */
+.gradients{
+    background: linear-gradient(to right, #000, #fff);
+}
+
+/* Fonctionnalité #4 - OPACITY */
+.opacity{
+    opacity: 25%;
+}
+
+/* Fonctionnalité #5 - GRAYSCALE */
+img.grayscale{
+    filter: grayscale(100%);
+    margin-top: .5rem;
+}
